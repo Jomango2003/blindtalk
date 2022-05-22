@@ -1,0 +1,28 @@
+{
+  "name": "blind-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/opus": "github:discordjs/opus",
+    "@discordjs/rest": "^0.4.1",
+    "@discordjs/voice": "^0.9.0",
+    "discord-api-types": "^0.33.0",
+    "discord-tts": "^1.2.1",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "ffmpeg-static": "^4.4.1",
+    "prism-media": "^2.0.0-alpha.0",
+    "undici": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
